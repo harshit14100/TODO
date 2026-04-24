@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="GO-261.22158.291">
+    <data-source name="todo@localhost" uuid="966c907d-4699-41a4-aae8-fd8ca196f95d">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>local</user-name>
+      <schema-mapping />
+    </data-source>
+  </component>
+</project>
