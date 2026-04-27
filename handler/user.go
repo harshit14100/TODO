@@ -69,7 +69,6 @@ func Login(c *gin.Context) {
 		return
 	}
 
-	//c.SetCookie("session_token", sessionID, 60*24*3600, "/", "", false, true)
 	c.JSON(http.StatusOK, gin.H{
 		"message":    "User logged in successfully",
 		"session_id": sessionID,
