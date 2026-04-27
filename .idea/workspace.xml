@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6e8ac8f3-941e-45da-89c3-843143274333" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/dbHelper/todo.go" beforeDir="false" afterPath="$PROJECT_DIR$/database/dbHelper/todo.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/00001_initial.up.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/00001_initial.up.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/todo.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/todo.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,5 +101,8 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
   </component>
 </project>

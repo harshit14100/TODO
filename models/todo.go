@@ -8,7 +8,7 @@ type Todo struct {
 	UserId       string `json:"user_id" db:"user_id"`
 	Title        string `json:"title" db:"title"`
 	Description  string `json:"description" db:"description"`
-	IsCompleted  bool   `json:"is_completed0" db:"is_completed"`
+	IsCompleted  bool   `json:"is_completed" db:"is_completed"`
 	IsIncomplete bool   `json:"is_incomplete" db:"is_incomplete"`
 	IsPending    bool   `json:"is_pending" db:"is_pending"`
 	ExpiresAt    string `json:"expires_at" db:"expires_at"`
