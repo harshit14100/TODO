@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e8ac8f3-941e-45da-89c3-843143274333" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/database/dbHelper/todo.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handler/todo.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/todo.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/todo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/db.go" beforeDir="false" afterPath="$PROJECT_DIR$/database/db.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/dbHelper/todo.go" beforeDir="false" afterPath="$PROJECT_DIR$/database/dbHelper/todo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/dbHelper/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/database/dbHelper/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler/todo.go" beforeDir="false" afterPath="$PROJECT_DIR$/handler/todo.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middleware/auth.go" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/auth.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/todo.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/todo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/user.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +50,7 @@
     "RunOnceActivity.GoLinterPluginStorageMigration": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.go.analysis.ui.options.defaults": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
@@ -56,7 +60,7 @@
     "git-widget-placeholder": "main",
     "go.sdk.automatically.set": "true",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/home/remotestate/Desktop/GoPractice",
+    "last_opened_file_path": "/home/remotestate/Desktop/Go",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",

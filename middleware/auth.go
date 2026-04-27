@@ -21,7 +21,7 @@ func AuthMiddleware() gin.HandlerFunc {
 			return
 		}
 
-		c.Set("userID", userID) // store the userID in the context so handlers can grab it
-		c.Next()                // Let the req continue to the header
+		c.Set("userID", userID)
+		c.Next()
 	}
 }

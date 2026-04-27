@@ -8,6 +8,16 @@ import (
 	"github.com/harshit14100/go-todo/server"
 )
 
+type TaskItem struct {
+	ID        string `json:"id"`
+	Title     string `json:"title" binding:"required"`
+	Completed bool   `json:"completed"`
+}
+
+var taskList = []TaskItem{
+	{ID: "1", Title: "Learn Go Gin", Completed: false},
+}
+
 func main() {
 	config.LoadConfig()
 

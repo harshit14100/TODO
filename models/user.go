@@ -5,8 +5,6 @@ type User struct {
 	Email    string `db:"email" json:"email"`
 	Username string `db:"username" json:"username"`
 	Password string `db:"password" json:"-"`
-	//CreatedAt time.Time `db:"created_at" json:"created_at"`
-	//UpdatedAt time.Time `db:"updated_at" json:"updated_at"`
 }
 
 type CreateUser struct {

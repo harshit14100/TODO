@@ -62,6 +62,3 @@ func migrateUp(db *sqlx.DB) error {
 	fmt.Println("Migrations applied successfully")
 	return nil
 }
-
-//DB - dbHelper (queries) - handler(funs) - server/routes
-// models <- body
