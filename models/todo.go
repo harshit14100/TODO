@@ -16,7 +16,7 @@ type Todo struct {
 }
 
 // client side data that is recieved provided by client
-type createTodo struct {
+type CreateTodo struct {
 	Title       string `json:"title" binding:"required"`
 	Description string `json:"description" binding:"required"`
 	ExpiresAt   string `json:"expires_at" binding:"required"`

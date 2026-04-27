@@ -102,7 +102,7 @@ func UpdateTodo(todo models.Todo) (models.Todo, error) {
 
 	err := database.Todo.Get(&updated, query,
 		todo.Title, todo.Description, todo.IsCompleted,
-		todo.IsIncomplete, todo.IsPending, todo.ID, todo.UserID)
+		todo.IsIncomplete, todo.IsPending, todo.Id, todo.UserId)
 	return updated, err
 }
 
