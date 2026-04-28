@@ -2,7 +2,6 @@ package handler
 
 import (
 	"net/http"
-	"time"
 
 	"github.com/gin-gonic/gin"
 	"github.com/harshit14100/go-todo/database/dbHelper"
@@ -60,18 +59,15 @@ func Login(c *gin.Context) {
 		return
 	}
 
-	expiry := time.Now().Add(60 * 24 * time.Hour)
-	sessionID, err := dbHelper.CreateUserSession(user.ID, expiry)
+	token, err := utils.GenerateToken(user.ID)
 	if err != nil {
-		c.JSON(http.StatusInternalServerError, gin.H{
-			"error": "Failed to create login session",
-		})
+		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to generate token"})
 		return
 	}
 
 	c.JSON(http.StatusOK, gin.H{
-		"message":    "User logged in successfully",
-		"session_id": sessionID,
+		"message": "User logged in successfully",
+		"token":   token,
 	})
 }
 
